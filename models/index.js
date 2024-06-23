@@ -1,9 +1,9 @@
 'use strict';
 
-const fs = require('fs');
-const path = require('path');
-const Sequelize = require('sequelize');
-const process = require('process');
+const fs = require('fs');  //fs: File system module to read directory contents.
+const path = require('path'); // path: Module to work with file and directory paths.
+const Sequelize = require('sequelize');  //Sequelize: The Sequelize ORM library.
+const process = require('process');  //process: Provides information about the current Node.js process.
 const basename = path.basename(__filename);
 const env = process.env.NODE_ENV || 'development';
 const config = require(__dirname + '/../config/config.json')[env];

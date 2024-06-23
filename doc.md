@@ -34,4 +34,4 @@ npm install --save multer
 
 install bcryptjs , jsonwebtoken , nodemon
 
-npm i faster-validator
+npm install fastest-validator
